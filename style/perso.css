@@ -1,0 +1,41 @@
+.imageLogo
+{
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    opacity: 0.0;
+    position: relative;
+    animation: appear 0.5s ease 1s forwards;
+}
+
+div#title {
+	transform: translate(0%, 50%);
+	font-size: 2.5em;
+	opacity: 0.0;
+	position: relative;
+	padding: 10px;
+	color: #777;
+	transition: color 0.1s;
+}
+
+div#title:hover, div#title:focus {
+	color: #fff;
+}
+
+div#title:after {
+	content: '';
+
+	background: #fff;
+
+	display: inline-block;
+	width: 0%; height: 1px;
+
+	position: absolute;
+	left: 50%; bottom: -4px;
+
+	transition: left 0.1s, width 0.1s;
+}
+
+div#title{
+	animation: appear 0.5s ease 1s forwards;
+}
