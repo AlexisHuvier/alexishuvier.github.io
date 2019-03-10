@@ -87,12 +87,16 @@
 }
 
 #project-tiles>li .tile-links {
+	right: 0;
+	
+}
+
+#project-tiles>li .tile-footer {
 	display: inline-block;
 	
 	position: absolute;
 	bottom: -30px;
-	right: 0;
-	
+
 	opacity: 0.0;
 	
 	margin: 8px; padding: 0px;
@@ -102,18 +106,7 @@
 }
 
 #project-tiles>li .tile-state {
-	display: inline-block;
-	
-	position: absolute;
-	bottom: -30px;
 	right: 0;
-	
-	opacity: 0.0;
-	
-	margin: 0px; padding: 0px;
-	
-	transition: bottom 0.5s, opacity 1s;
-	transition-delay: 0s;
 }
 
 #project-tiles>li:hover .tile-links, #project-tiles>li:focus .tile-links, #project-tiles>li:hover .tile-state, #project-tiles>li:focus .tile-state {
