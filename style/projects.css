@@ -87,16 +87,11 @@
 }
 
 #project-tiles>li .tile-links {
-	right: 0;
-	
-}
-
-#project-tiles>li .tile-footer {
-	display: inline-block;
 	
 	position: absolute;
 	bottom: -30px;
-
+	right: 0;
+	
 	opacity: 0.0;
 	
 	margin: 8px; padding: 0px;
@@ -105,8 +100,27 @@
 	transition-delay: 0s;
 }
 
+#project-tiles>li .tile-footer {
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+	
+	border-bottom: 1px solid #888;
+}
+
 #project-tiles>li .tile-state {
-	right: 0;
+	display: inline-block;
+	
+	position: absolute;
+	bottom: -30px;
+	right: -30px;
+	
+	opacity: 0.0;
+	
+	margin: 8px; padding: 0px;
+	
+	transition: bottom 0.5s, opacity 1s;
+	transition-delay: 0s;
 }
 
 #project-tiles>li:hover .tile-links, #project-tiles>li:focus .tile-links, #project-tiles>li:hover .tile-state, #project-tiles>li:focus .tile-state {
