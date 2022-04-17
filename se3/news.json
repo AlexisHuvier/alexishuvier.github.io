@@ -20,12 +20,13 @@
         "SharpEngine 3 est divisé en trois parties :",
         "-> SE3 : Coeur du moteur, utilisé dans les autres parties ainsi que vos jeux.",
         "-> SE3 Editeur : Editeur du moteur, utilisé pour faire vos jeux.",
-        "-> SE3 Launcher : Launcher du moteur, gestionnaire des projets et des versions installés"
+        "-> SE3 Launcher : Launcher du moteur, gestionnaire des projets et des versions installés."
       ],
       "lines_en-US": 
       [
         "SharpEngine 3 is divided into three parts:",
-        "-> SE3 : Core engine, used in the other parts as well as your games.", "-> SE3 Editor : Editor of the engine, used to make your games,
+        "-> SE3 : Core engine, used in the other parts as well as your games.",
+        "-> SE3 Editor : Editor of the engine, used to make your games.",
         "-> SE3 Editor : Engine editor, used to make your games.",
         "-> SE3 Launcher: Engine Launcher, manager of installed projects and versions."
       ]
